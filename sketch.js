@@ -35,8 +35,8 @@ function draw() {
 class Star{
   constructor(){
     this.position = createVector(random(-width,width),random(-height,height),random(600));
-    this.velocity = createVector(0, 0, 1);
-    this.acceleration = createVector(0,0,-0.02);
+    this.velocity = createVector(0, 0, -1);
+    this.acceleration = createVector(0,0,0.02);
  
   }
   update(){
